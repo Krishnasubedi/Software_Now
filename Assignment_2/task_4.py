@@ -1,3 +1,12 @@
+"""
+Group Members:
+[Name: Krishna Prasad Subedi] -[ID: S371919]
+[Name: Saurav Ghimire] -[ID: S375203]
+[Name: Rabi Acharya] -[ID: S372977]
+[Name: Ranjit Kunwar] -[ID: S375204]
+[Name: Muhammad Waqas Ashraf]- [ID: S374681]
+"""
+
 import spacy
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
