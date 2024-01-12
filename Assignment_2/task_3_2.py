@@ -22,11 +22,11 @@ def count_unique_tokens(text, model_name):
 
 def main():
     # Read text from a .txt file
-    file_path = 'combined_text.txt'  # Replace with your actual file path
+    file_path = 'combined_text.txt'  
     with open(file_path, 'r', encoding='utf-8') as file:
         text = file.read()
 
-    # Model name (replace with the desired pre-trained model from Hugging Face)
+    # Model name
     model_name = "bert-base-uncased"
 
     # Count unique tokens
